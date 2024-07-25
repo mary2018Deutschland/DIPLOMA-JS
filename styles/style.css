@@ -1,8 +1,11 @@
-@import url("./css/header.css");
+@import url("/css/header.css");
+@import url("/css/headerBox.css");
+@import url("/css/eventsHeader.css");
+@import url("/css/eventBox.css");
+@import url("/css/joinMeetup.css");
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 body {
