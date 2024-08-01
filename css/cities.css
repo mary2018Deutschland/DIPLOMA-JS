@@ -1,0 +1,44 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 64px;
+}
+.popularBox {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  white-space: nowrap;
+  flex-direction: row;
+}
+.popular p {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 24px;
+}
+.popularItem img {
+  width: 100%;
+}
+.popularTitle p {
+  margin-top: 16px;
+  margin-bottom: 28px;
+  text-align: left;
+  color: #707070;
+}
+
+.popularItem img:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+#city:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+@media (max-width: 992px) {
+  .popularBox {
+    flex-wrap: wrap;
+  }
+  .popularItem {
+    width: 153px;
+  }
+}

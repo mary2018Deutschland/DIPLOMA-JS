@@ -1,13 +1,12 @@
-.eventsHeader {
+.upHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 44px;
   margin-top: 24px;
 }
-.eventsHeaderLeftSide {
+.upHeaderLeftSide {
   display: flex;
-  justify-content: space-between;
 }
 .btnSeeAll {
   color: #00798a;
@@ -19,7 +18,7 @@
   cursor: pointer;
   text-decoration: underline;
 }
-.btnEvents {
+.btnup {
   width: 239px;
   background-color: #97cad11f;
   border: none;
@@ -31,25 +30,25 @@
   display: flex;
   align-items: center;
 }
-.btnEvents img {
+.btnup img {
   margin-left: 8px;
 }
-.btnEvents:hover {
+.btnup:hover {
   color: #16a5b8;
   cursor: pointer;
 }
 
 @media (max-width: 576px) {
-  .eventsHeaderLeftSide {
+  .upHeaderLeftSide {
     width: 80%;
     white-space: nowrap;
     align-items: center;
     gap: 4px;
   }
-  .eventsHeaderLeftSide h3 {
+  .upHeaderLeftSide h3 {
     font-size: 22px;
   }
-  .eventsHeader {
+  .upHeader {
     margin-bottom: 17px;
   }
   .btnSeeAll {

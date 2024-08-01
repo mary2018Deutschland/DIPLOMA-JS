@@ -1,0 +1,130 @@
+footer {
+  width: 100vw;
+  background-color: #212121;
+  margin-top: 64px;
+}
+
+.footer-container {
+  width: 1181px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: #c5c4c4;
+  display: flex;
+  flex-direction: column;
+}
+.footer-header {
+  font-weight: 500;
+  display: flex;
+  height: 93px;
+  color: #f6f7f8;
+  padding-top: 24px;
+  column-gap: 36px;
+  align-items: center;
+  border-bottom: 1px solid rgba(197, 196, 196, 0.3);
+}
+.footer-btn {
+  font-weight: 500;
+  background-color: #212121;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #f6f7f8;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-bottom: 35px;
+}
+.footer-btn:hover {
+  background-color: white;
+  border: 2px solid #8b8b8b;
+  color: #212121;
+  font-style: normal;
+  font-weight: 200;
+}
+.footer-header p {
+  padding-bottom: 35px;
+}
+.footer-body {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+.footer-ul-up {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.footer-ul-up li {
+  list-style-type: none;
+  padding: 7px;
+}
+.footer-ul-up li:hover {
+  cursor: pointer;
+}
+.footer-ul-up li :first-child {
+  font-size: 16px;
+  color: #f6f7f8;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+}
+.social-header {
+  height: 24px;
+  margin-bottom: 12;
+  margin-top: 24px;
+}
+.social-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.social-left {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.footer-down .footer-ul {
+  list-style-type: none;
+}
+.footer-ul {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+}
+/* .footer-ul li:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+  } */
+@media (max-width: 1400px) {
+  .footer-container {
+    max-width: 90%;
+  }
+  .footer-ul-up {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 576px) {
+  .footer-ul li:not(:first-child) {
+    display: none;
+  }
+  .footer-ul-up {
+    padding-left: 0;
+  }
+  footer {
+    margin-top: 25%;
+    font-size: 0.9em;
+  }
+  .social-right {
+    display: none;
+  }
+}
