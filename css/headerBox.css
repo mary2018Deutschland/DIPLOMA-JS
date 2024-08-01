@@ -31,9 +31,9 @@
   .headerBox h2 {
     text-align: center;
   }
-  .header_Box_Btn {
+  /* .header_Box_Btn {
     display: none;
-  }
+  } */
 }
 @media (max-width: 768px) {
   .hederBox_left {
